@@ -89,6 +89,7 @@ module.exports = (dynamicSettings, identities, locale = 'en') =>
                                                 <p id="message">
                                                     ${t('introduction')} ${t('identities').replace(identitiesRegex, identities)}.
                                                 </p>
+                                                <p>This is a test extra block</p>
                                                 <p class="auth0-lock-alternative">
                                                     <a class="auth0-lock-alternative-link" id="skip" href="#">
                                                     ${t('skipAlternativeLink')}
